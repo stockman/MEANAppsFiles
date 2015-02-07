@@ -1,5 +1,5 @@
 {
-  "name": "MultiVision",
+  "name": "StackersRand",
   "version": "0.0.0",
   "description": "Extreme Tech Training",
   "main": "index.js",
@@ -13,12 +13,12 @@
   "author": "Joe Eames",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "jade": "~0.35.0",
-    "express": "~3.4.4",
-    "stylus": "~0.40.2",
+    "express": "^3.4.8",
+    "jade": "^0.35.0",
     "mongoose": "~3.8.0",
+    "passport": "~0.1.17",
     "passport-local": "~0.1.6",
-    "passport": "~0.1.17"
+    "stylus": "~0.40.2"
   },
   "devDependencies": {
     "karma-mocha": "~0.1.0",
@@ -34,5 +34,13 @@
     "karma-coffee-preprocessor": "~0.1.0",
     "karma-phantomjs-launcher": "~0.1.0",
     "karma": "~0.10.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stockman/MEANAppsFiles.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stockman/MEANAppsFiles/issues"
+  },
+  "homepage": "https://github.com/stockman/MEANAppsFiles"
 }
